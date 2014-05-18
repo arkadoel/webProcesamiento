@@ -1,0 +1,35 @@
+﻿body {
+    background-color:gainsboro;
+}
+
+/*RESOLUCIONES*/
+
+/*Elementos generales*/
+body{
+    background-color:ghostwhite;
+}
+
+
+/*Resolucion menor de 768px de ancho
+    decir que use otra resolucion mayor*/
+@media all and (max-width: 767px) 
+{
+    #Pantalla
+    {
+        visibility:hidden;
+    }
+    #Pantalla2{
+        visibility:visible;
+    }
+}
+
+@media all and (min-width: 768px) 
+{
+    #Pantalla
+    {
+        visibility:visible;
+    }
+    #Pantalla2{
+        visibility:hidden;
+    }
+}
